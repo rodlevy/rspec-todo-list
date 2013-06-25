@@ -4,8 +4,7 @@ class Task
   def initialize(description)
     @description = description
     @complete = false
-  enddsada
-  
+  end
 
   def complete?
     @complete
