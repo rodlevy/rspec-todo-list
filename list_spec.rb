@@ -38,7 +38,7 @@ describe List do
       expect(List.new('Movies to watch')).to be_an_instance_of List
     end
     it 'requires one or two arguments' do
-      expect{ List.new }.to raise_error
+      expect{ List.new }.to raise_error(ArgumentError)
     end
   end
 
